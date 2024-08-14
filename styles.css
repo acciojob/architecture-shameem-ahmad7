@@ -1,1 +1,53 @@
-/*  your css code here. If applicable */
+/* Ensure the entire content fits within 1100px */
+body {
+    width: 1100px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for the image */
+.imageContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: auto;
+}
+
+/* Style the table */
+.styledTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Column 1 and 3 have specific widths */
+.styledTable .col-1, .styledTable .col-3 {
+    width: 200px;
+}
+
+.styledTable .col-2 {
+    width: 600px;
+    padding: 10px;
+}
+
+/* Ensure images inside table columns are responsive */
+.styledTable img {
+    width: 100%;
+    height: auto;
+}
+
+/* Basic styling for the text */
+.styledTable h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+.styledTable p {
+    margin: 5px 0;
+    padding: 0;
+    font-size: 1em;
+    color: #333;
+}
